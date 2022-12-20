@@ -1,0 +1,29 @@
+.heading{
+    padding-bottom: 25px;
+}
+
+.vegan-veggie{
+    color: darkgreen;
+    font-weight: 700;
+}
+
+.recipe-wrap{
+    padding: 10px;
+}
+
+.recipe-image{
+    max-width: 1000px;
+    max-height: 400px;
+
+}
+
+.steps{
+    padding: 10px;
+}
+
+.ingredients-macros{
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
+    background-color: #FDD037;
+}

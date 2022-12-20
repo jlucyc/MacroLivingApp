@@ -1,0 +1,194 @@
+
+form{
+  margin: 5; 
+}
+
+label{
+  margin: 5;
+  padding: 10px;
+}
+body{
+	/* background-color: rgb(241, 161, 5) ; */
+	padding-bottom: 100px;
+}
+input{
+  width: 20%;
+  max-width: 100px;
+  height: 30px;
+  font-size: 1rem;
+  padding-left: 15px;
+}
+
+	a:link {
+	text-decoration: none;
+}  
+  a:visited {
+	text-decoration: none;
+} 
+  a:hover {
+	text-decoration: none;
+}
+  a:active {
+	text-decoration: none;
+}
+
+.sidebars{
+  display: flex;
+  justify-content: space-between;
+  background-color: #0295A9;
+  padding-bottom: 10px;
+  padding-top: 2px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.hamburger-logo{
+	margin-left: 75px;
+	width: 100px
+}
+.ingredients-box{
+	background-color: rgb(241, 161, 5);
+	padding-top: 5px;
+	padding-bottom: 10px
+}
+/* No idea what this is for, not deleted just in case */
+div.scroll { 
+  margin:4px, 4px; 
+  padding:4px; 
+  background-color: green; 
+  width: 500px; 
+  height: 110px; 
+  overflow-x: hidden; 
+  overflow-x: auto; 
+  text-align:justify; 
+}
+
+.meal-plan-btn {
+	text-decoration:none;
+	border-style: none;
+	background-color: transparent;
+}
+.meal-plan-btn:active {
+	position:relative;
+	top:1px;
+}
+.add-to-meal-btn {
+	box-shadow:inset 0px 1px 0px 0px #a4e271;
+	background:linear-gradient(to bottom, #89c403 5%, #77a809 100%);
+	background-color:#89c403;
+	border-radius:6px;
+	border:1px solid #74b807;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #528009;
+	margin-left: 20px;
+}
+.add-to-meal-btn:hover {
+	background:linear-gradient(to bottom, #77a809 5%, #89c403 100%);
+	background-color:#77a809;
+}
+.add-to-meal-btn:active {
+	position:relative;
+	top:1px;
+}
+.hamburger-menu-btn {
+	background-color:transparent;
+	text-decoration:none;
+  	border-style: none;
+}
+.hamburger-menu-btn:hover {
+	background-color:transparent;
+}
+.hamburger-menu-btn:active {
+	position:relative;
+	top:1px;
+}
+.fav-btn{
+	background: none;
+	border:none
+}
+/* Recipe card css */
+.recipe-list {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 25px 30px;
+	justify-content: center;
+}
+.recipe-list-all {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 25px 30px;
+	justify-content: center;
+	background-color: rgb(241, 161, 5);
+	padding-bottom: 50px;
+
+}
+.recipe-list-fav {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 25px 30px;
+	justify-content: center;
+	padding-top: 20px;
+	background-color: rgb(241, 161, 5);
+	padding-bottom: 50px;
+	
+
+}
+.recipe-card{
+	width: 400px;
+	/* position:absolute; */
+	background-color: #b6e8f0;  /*Open card background*/
+	scroll-behavior: smooth;
+}
+.recipe-card-all{
+	width: 400px;
+	list-style-type: none;
+}
+.steps{
+	list-style-type: none;
+}
+.main-content{
+	text-align: center;
+	color:black;
+    /* text-shadow: 1px 1px white ; */
+}
+.footer{
+	background-color:#25332c;
+	color: wheat;
+	padding: 5px;
+	/* padding-bottom: 75px; */
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+}
+.selection-box{
+	background-color: #0295A9;
+	padding: 2px;
+	margin-bottom: 5px;
+	
+}
+.macro-red{
+	color: red;
+}
+
+.macro-green{
+	color:green
+}
+.filter-by-recipe-btn{
+	background-color: rgb(241, 161, 5) ;
+	padding: 20px;
+}
+
+
+
+
+/* ////////// */
+
