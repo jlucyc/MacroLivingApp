@@ -37,12 +37,12 @@ Technologies used: Java, Spring, SQL, Javascript, React.js, Photoshop
 
  # To run 
 
- # In terminal go to: backend/Maven-MLC
- # idea .     (Opens all Java files in IntelliJ)
- # In IntelliJ src/main/java/com.mlc.MLC run the file MlcAppServiceApplication. This will start the server.
- # The API can be viewed at localhost:8080/api/{model_name}
+ <li> In terminal go to: backend/Maven-MLC
+ <li> idea .     (Opens all Java files in IntelliJ)
+ <li> In IntelliJ src/main/java/com.mlc.MLC run the file MlcAppServiceApplication. This will start the server.
+ <li> The API can be viewed at localhost:8080/api/{model_name}
  
- # In terminal got to: frontend/JS-MLC
- # npm upgrade   (Installs the latest version)
- # npm start
- # The app will start at localhost:3000
+ <li> In terminal got to: frontend/JS-MLC
+ <li> npm upgrade   (Installs the latest version)
+ <li> npm start
+ <li> The app will start at localhost:3000
