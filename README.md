@@ -24,29 +24,25 @@ The app should:
 
 # Extensions
 
-<li>Add in accessibility options ie. voice describe, colourblind mode etc.
-<li>User can blacklist recipes they don't like.
+
 <li>Can filter recipes by vegan/vegetarian, breakfast/lunch/dinner/snack.
-<li>User can add ingredients to a shopping list. Ingredients on the shopping list would add up automatically if an ingredient is added more than once.
-<li>User ratings/reviews.
-<li>
 
 ------------------------------------------------------------
 
-# Installs Used
+Created by Matthew Arthur, Lucy Collins and Colin Cameron.
 
-# Server
-  
-# In seeds folder
-
- # Client
-
+Technologies used: Java, Spring, SQL, Javascript, React.js, Photoshop
 
 -----------------------------------------------------
 
  # To run 
 
- # Client file
- npm start 
-
- # Server file
+ # In terminal go to: backend/Maven-MLC
+ # idea .     (Opens all Java files in IntelliJ)
+ # In IntelliJ src/main/java/com.mlc.MLC run the file MlcAppServiceApplication. This will start the server.
+ # The API can be viewed at localhost:8080/api/{model_name}
+ 
+ # In terminal got to: frontend/JS-MLC
+ # npm upgrade   (Installs the latest version)
+ # npm start
+ # The app will start at localhost:3000
